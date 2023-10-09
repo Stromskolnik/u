@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styl.css">
+    <title>Generátor šachovnice</title>
+    <script src="skript.js"></script>
+</head>
+<body>
+    <h1>Generátor šachovnice</h1>
+    <label for="rows">Počet řádků:</label>
+    <input type="number" id="radky" min="1" value="1">
+    <br>
+    <label for="cols">Počet sloupců:</label>
+    <input type="number" id="sloupce" min="1" value="1">
+    <br>
+    <button onclick="jedem()">Generovat šachovnici</button>
+    <br>
+    <table id="sachovnice">
+    </table>
+</body>
+</html>
